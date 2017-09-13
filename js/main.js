@@ -64,12 +64,6 @@ var flipCard = function(){
 	createBoard();
 
 
-	var resetBtn = function(){
-	var reSet = document.getElementById('reset-game').reset(flipCard);
-	cardElement.addEventListener('click', flipCard);
-	
-	}
-
 
 
 
